@@ -11,4 +11,13 @@ module.exports = {
       password: 'password'
     }
   },
+  test: {
+    client: 'pg',
+    connection: {
+      host: 'localhost',
+      database: 'test-knextestdb',
+      user: 'postgres',
+      password: 'password'
+    }
+  },
 };
